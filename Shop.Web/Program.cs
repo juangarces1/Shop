@@ -5,7 +5,9 @@ namespace Shop.Web
     using Microsoft.AspNetCore;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.DependencyInjection;
-    using System;
+  
+
+
 
     public class Program
     {
@@ -23,7 +25,6 @@ namespace Shop.Web
             {
                 var seeder = scope.ServiceProvider.GetService<SeedDb>();
                 seeder.SeedAsync().Wait();
-
             }
         }
 

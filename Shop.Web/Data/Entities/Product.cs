@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Shop.Web.Data.Entities
 {
-    public class Product
+    public class Product : IEntity
     {
 
 
@@ -50,5 +50,7 @@ namespace Shop.Web.Data.Entities
         [DataType(DataType.Currency)]
 
         public decimal Stock { get; set; }
+
+        public User User { get; set; }
     }
 }
