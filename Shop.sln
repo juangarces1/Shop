@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms.Android", "Sho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms.iOS", "Shop.UIForms\Shop.UIForms.iOS\Shop.UIForms.iOS.csproj", "{FE43EB6C-327E-481A-834B-843B1B838E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms", "Shop.UIForms\Shop.UIForms\Shop.UIForms.csproj", "{77D9864D-6D0A-4736-9DCB-25C357B30FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UIForms", "Shop.UIForms\Shop.UIForms\Shop.UIForms.csproj", "{77D9864D-6D0A-4736-9DCB-25C357B30FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic", "Shop.UIClassic\Shop.UIClassic.csproj", "{D59275CD-D9E7-411A-AB14-73632841DE8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UIClassic", "Shop.UIClassic\Shop.UIClassic.csproj", "{D59275CD-D9E7-411A-AB14-73632841DE8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic.Android", "Shop.UIClassic.Android\Shop.UIClassic.Android.csproj", "{C44BD37B-ABC0-4093-931A-29EC376E66ED}"
 EndProject

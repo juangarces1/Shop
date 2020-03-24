@@ -24,7 +24,7 @@ namespace Shop.Web.Data.Entities
         public decimal Price { get; set; }
 
 
-        [StringLength(30, ErrorMessage = "The Field {0} must be between {2} and {1} characters", MinimumLength = 3)]
+       
         [Display(Name = "Image")]
 
         public string ImageUrl { get; set; }
@@ -52,5 +52,19 @@ namespace Shop.Web.Data.Entities
         public decimal Stock { get; set; }
 
         public User User { get; set; }
+
+        public string ImageFullPath
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(this.ImageUrl))
+                {
+                    return null;
+                }
+
+                return $"https://localhost:44301{this.ImageUrl.Substring(1)}";
+
+            }
+        }
     }
 }
