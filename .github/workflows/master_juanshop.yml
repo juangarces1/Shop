@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'juanshop'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7d6c04414c0c4c8f93d6c484ec7ff0b6 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d265bb7fd0674fda8447e936268257b2 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
